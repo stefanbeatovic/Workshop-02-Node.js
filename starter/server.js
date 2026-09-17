@@ -18,9 +18,7 @@ const server = http.createServer((req, res) => {
     console.log(`${req.method} ${req.url}`);
 
     try {
-        // ========================================
         // TODO: Task 6 (Bonus) - API Endpoint
-        // ========================================
         // Create a /api/time endpoint that returns current date/time as JSON
         // Uncomment and complete the code below:
 
@@ -34,10 +32,7 @@ const server = http.createServer((req, res) => {
             return;
         }
 
-
-        // ========================================
         // TODO: Task 2 - Route Mapping
-        // ========================================
         // Map URLs to HTML files in the public folder
         // Complete the if-else chain below:
         
@@ -52,9 +47,7 @@ const server = http.createServer((req, res) => {
         }
         
         
-        // ========================================
         // TODO: Task 4 - Serve CSS Files
-        // ========================================
         // Handle requests for CSS files from /styles/ folder
         // Uncomment and complete the security check:
         
@@ -74,10 +67,7 @@ const server = http.createServer((req, res) => {
             return;
         }
 
-
-        // ========================================
         // TODO: Task 3 - Serve Files
-        // ========================================
         // Read the file and send it to the client
         // Complete the code below:
         
@@ -114,9 +104,7 @@ const server = http.createServer((req, res) => {
 });
 
 
-// ========================================
 // TODO: Task 5 - Error Handling Functions
-// ========================================
 
 // Function to handle 404 errors (Page Not Found)
 function handle404(res) {
@@ -154,9 +142,7 @@ function handleServerError(res, error) {
 }
 
 
-// ========================================
 // TODO: Task 1 - Start the Server
-// ========================================
 // Start listening for requests on PORT 3000
 server.listen(PORT, () => {
     // TODO: Log a message to indicate the server is running

@@ -102,7 +102,7 @@ Before submitting, make sure that:
 - [x] Repository does not contain `node_modules`
 - [x] README instructions were followed
 
-AI disclaimer:
+### AI disclaimer:
 
 AI was used to support learning and understanding the Node.js server.js file codebase better. AI was also used to improve grammar check on my text files. The solution file was used at times to solve the workshop tasks, because I'm still new to some skills. I understand the codebase concepts, how it is formulated to develop the server-side static website with error handling, how http request-response cycle works, and how CSS styling is fetched with the security measures taken against attacks outside the specified file path etc. I also consulted colleagues when deploying Render, and got their help with it. 
 

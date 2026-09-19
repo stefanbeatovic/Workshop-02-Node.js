@@ -96,11 +96,16 @@ These tasks are **optional** and not required for completion.
 
 ## Submission Checklist
 Before submitting, make sure that:
-- [ ] All mandatory tasks are completed
-- [ ] Application starts successfully
-- [ ] Code is pushed to GitHub
-- [ ] Repository does not contain `node_modules`
-- [ ] README instructions were followed
+- [x] All mandatory tasks are completed
+- [x] Application starts successfully
+- [x] Code is pushed to GitHub
+- [x] Repository does not contain `node_modules`
+- [x] README instructions were followed
+
+AI disclaimer:
+
+AI was used to support learning and understanding the Node.js server.js file codebase better. AI was also used to improve grammar check on my text files. The solution file was used at times to solve the workshop tasks, because I'm still new to some skills. I understand the codebase concepts, how it is formulated to develop the server-side static website with error handling, how http request-response cycle works, and how CSS styling is fetched with the security measures taken against attacks outside the specified file path etc. I also consulted colleagues when deploying Render, and got their help with it. 
+
 
 ---
 

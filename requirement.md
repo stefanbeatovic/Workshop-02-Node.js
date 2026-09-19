@@ -19,6 +19,8 @@ Optional tasks are provided for additional practice.
 
 ## Mandatory Tasks
 
+### This is the link to the Render site: https://workshop-02-node-js.onrender.com/
+
 ### Task 1 - Start the Server
 **Description**  
 Start a Node.js HTTP server that listens on port 3000.
